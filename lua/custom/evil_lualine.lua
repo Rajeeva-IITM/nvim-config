@@ -228,5 +228,11 @@ ins_right({
   padding = { left = 1 },
 })
 
+ins_right({
+  function()
+    return vim.api.nvim_call_function("codeium#GetStatusString", {})
+  end,
+})
+
 -- Now don't forget to initialize lualine
 lualine.setup(config)
