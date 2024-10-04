@@ -3,6 +3,7 @@ require("config.lazy")
 
 require("custom.evil_lualine")
 
+-- This line is required for codeium to work
 local cmp = require("cmp")
 cmp.setup({
   mapping = {
@@ -16,3 +17,5 @@ cmp.setup({
     end, { "i", "s" }),
   },
 })
+
+require("colorizer").setup()
