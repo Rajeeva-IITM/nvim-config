@@ -9,3 +9,7 @@ My small modifications:
 
 This works for me. If you're having issues with the tab completion, take a look at this [issue](https://github.com/Exafunction/codeium.vim/issues/11).
 
+To-do:
+- [ ] change the default shell to nushell for the inbuilt terminal
+
+
