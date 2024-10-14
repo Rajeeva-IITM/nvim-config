@@ -19,3 +19,6 @@ cmp.setup({
 })
 
 require("colorizer").setup()
+
+-- local lspconfig = require("lspconfig")
+-- lspconfig.tinymist.setup({})
